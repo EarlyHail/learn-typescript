@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "allowJs": true, //javascript 허용
+    "checkJs": true, //ts-check 허용
+    "noImplicitAny": true //모든 type에 대해 any라도 넣어야 한다. (암묵적 any 금지)
+  }
+}
