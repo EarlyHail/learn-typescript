@@ -5,5 +5,6 @@ const sumNumberWithoutReturnType = (a: number, b: number) => {
 const sumNumber = (a: number, b: number): number => {
   return a + b;
 };
-sumNumber(10, 20);
+let result = sumNumber(10, 20);
+result.toLocaleString();
 // sumNumber(10, "20");
